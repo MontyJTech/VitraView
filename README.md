@@ -1,39 +1,30 @@
-# VitraView
+# VitraView - A VR Window-Like effect for common monitors. (OpenCV, C++, Unity)
 ## Overview
 
-A novel approach for window-like experiences. 
-
+VitraView is an experimental project that turns any monitor into a "window-like" VR display. By combining real-time eye tracking with a novel extrinsics calibration technique, it dynamically adapts perspective rendering so the scene reacts naturally to the viewer’s position. No headset required.
 
 ## Components
-- Camera intrinsics utility.
-- Novel camera extrinsics to monitor technique.
+- Novel camera extrinsics technique.
 - 3D Eye tracking from IPD and pixel coordinates.
-- Kalman filtering.
+- Kalman filtering & Exponential Smoothing.
 - Unity demo project.
 
 ## Demo Outputs
 
-![to-do](to-do.gif)
-
+![VitraView User Perspective Render Demo](media/VVStable.gif)
 *Simple demo VR window effect as seen from users perspective.*
 
-![to-do](to-do.gif)
+![VitraView Perspective Comparison](media/VVcompared.gif)
+*VitraView perspective compared to regular rendering.*
 
-*Sailing game demo VR window effect as seen from users perspective.*
+![Camera Tracking module only](media/boat_stable.gif)
+*Sailing game demo VR window effect with direct camera tracking (not eye tracking).*
 
-
-## Usage
-To do: Start using the application straight away via command line interface.
-To do: Working with the project code.
-
+![Reflective Extrinsics](media/ReflectiveExtrinsics.png)
+*Camera extrinsics calibration using a mirror.*
 
 ## Limitations & Future Improvements
-To do.
-
-### Potential improvements:
-To do.
-
-
-## License
-To do.
+- Parallelized OpenCV DNN for faster eye detection.
+- Entirely separate camera calibration unitility.
+- Improved dev tools Unity->C++ for faster tracking parameter testing.
 
