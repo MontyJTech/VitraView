@@ -12,15 +12,22 @@ VitraView is an experimental project that turns any monitor into a "window-like"
 ## Demo Outputs
 
 ![VitraView User Perspective Render Demo](media/VVStable.gif)
+
 *Simple demo VR window effect as seen from users perspective.*
 
+
 ![VitraView Perspective Comparison](media/VVcompared.gif)
+
 *VitraView perspective compared to regular rendering.*
 
+
 ![Camera Tracking module only](media/boat_stable.gif)
-*Sailing game demo VR window effect with direct camera tracking (not eye tracking).*
+
+*Sailing game demo VR window effect with direct camera tracking (not eye tracking). To note: Stabilisation was added later to video.*
+
 
 ![Reflective Extrinsics](media/ReflectiveExtrinsics.png)
+
 *Camera extrinsics calibration using a mirror.*
 
 ## Limitations & Future Improvements
