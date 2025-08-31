@@ -1,7 +1,9 @@
-# VitraView - A VR Window-Like effect for common monitors. (OpenCV, C++, Unity)
+# VitraView - A VR Window-Like effect for common monitors. (OpenCV, C++, Unity) (WIP)
 ## Overview
 
 VitraView is an experimental project that turns any monitor into a "window-like" VR display. By combining real-time eye tracking with a novel extrinsics calibration technique, it dynamically adapts perspective rendering so the scene reacts naturally to the viewer’s position. No headset required.
+
+To note: This project is still under development and the code & demo will be uploaded in the near future. 
 
 ## Components
 - Novel camera extrinsics technique.
